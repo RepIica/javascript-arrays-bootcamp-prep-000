@@ -10,6 +10,10 @@ function destructivelyAddElementToBeginningOfArray(arr, n){
 function addElementToEndOfArray(arr,n) {
   return [...arr, n]
 }
+function destructivelyAddElementToBeginningOfArray(arr, n){
+  arr.shift(n)
+  return arr
+}
 function accessElementInArray(arr, index) {
   return arr[index]
 }
