@@ -8,7 +8,7 @@ function destructivelyAddElementToBeginningOfArray(arr, n){
   return arr
 }
 function addElementToEndOfArray(arr,n) {
-  return newArr
+  return [arr, ...n]
 }
 function accessElementInArray(arr, index) {
   return arr[index]
