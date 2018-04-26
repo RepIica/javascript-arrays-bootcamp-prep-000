@@ -10,8 +10,8 @@ function destructivelyAddElementToBeginningOfArray(arr, n){
 function addElementToEndOfArray(arr,n) {
   return [...arr, n]
 }
-function destructivelyAddElementToBeginningOfArray(arr, n){
-  arr.shift(n)
+function destructivelyAddElementToEndOfArray(arr, n){
+  arr.push(n)
   return arr
 }
 function accessElementInArray(arr, index) {
