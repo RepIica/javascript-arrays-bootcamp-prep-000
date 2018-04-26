@@ -8,8 +8,6 @@ function destructivelyAddElementToBeginningOfArray(arr, n){
   return arr
 }
 function addElementToEndOfArray(arr,n) {
-  var newArr = arr
-  newArr.push(n)
   return newArr
 }
 function accessElementInArray(arr, index) {
